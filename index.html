@@ -2,7 +2,8 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
-    <link rel="stylesheet" href="/css/master.css">
+    <link rel="stylesheet" href="css/default.css">
+    <link rel="stylesheet" href="css/layout.css">
     <script src="js/user.css."type="text/javascript"></script>
     <link rel="shortcut icon" href="images/favicon.png">
     <title>Triangle tracker</title>
@@ -14,6 +15,7 @@
       <header id="home">
 
         <!-- Navigation -->
+        <img id="logo" src="images/geometry.png" alt="equilateral-triangle">
         <nav id="nav-warp">
           <a class="mobile-btn" href="#nav-wrap" title="Show navigation">Show navigation</a>
           <a class="mobile-btn" href="#" title="Hide Navigation">Hide Navigation</a>
@@ -24,8 +26,9 @@
         <div class="row banner">
 
           <div class="banner text">
-            <h1>Triangle Tracker</h1>
-            <h3>Introduction to Triangles<span>What triangle I'm I?</span>Read on</h3>
+            <h1>Triangle pi</h1>
+            <h3>Take our lie detector test and prove which triangular "crime" you are guilty of."<span>What triangle I'm I?</span>Read on</h3>
+            <p></p>
             <h4>Definition by Length of Sides.</h4>
             <p>Triangles can be classified according to the lengths of their sides:</p>
             <ul>
@@ -121,12 +124,13 @@
 
       <div class="instructions">
         <h2>Triangle Checker</h2>
-        <p>Please enter the length of the three sides of the triangle</p>
+        <p>Please enter lengths a, b and c of the suspect.</p>
       </div>
 
       <!-- Input and Calculator -->
       <div class="form">
-        <input type="submit" name="blue">
+
+        <input type="text" name="blue">
         <button id="btn"type="button" name="input-button">
           Enter
         </button>
